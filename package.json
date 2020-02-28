@@ -1,0 +1,20 @@
+{
+  "name": "pretty-good-keker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoodsey20/pretty-good-keker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoodsey20/pretty-good-keker/issues"
+  },
+  "homepage": "https://github.com/hoodsey20/pretty-good-keker#readme"
+}
