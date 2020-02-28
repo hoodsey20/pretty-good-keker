@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5", // в какую версию будет компилировать, по умолчанию es3
+    "module": "commonjs", // какой тип модулей будет использован, не смотря на то что target === "ES3" or "ES5" ? "CommonJS" : "ES6", указываем явно
+    "declaration": true, // нужно ли эксопртировать type definitions (.d.ts) вместе со скомпилиным кодом. для пакетов ставим в true
+    "outDir": "./lib",
+    "strict": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}
