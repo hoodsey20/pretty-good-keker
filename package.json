@@ -1,8 +1,9 @@
 {
   "name": "pretty-good-keker",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A pretty good keker helper to kek about something",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
@@ -10,14 +11,17 @@
     "test": "jest --config jestconfig.json",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json"
+    "lint": "tslint -p tsconfig.json",
+    "check": "npm run lint && npm run format && npm test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hoodsey20/pretty-good-keker.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "kek"
+  ],
+  "author": "Artem Nepomnyaschikh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hoodsey20/pretty-good-keker/issues"
