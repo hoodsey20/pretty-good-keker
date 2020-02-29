@@ -12,7 +12,9 @@
     "build": "npm run check && tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "check": "npm run lint && npm run format && npm test"
+    "check": "npm run lint && npm run format && npm test",
+    "publish": "npm run build && npm publish",
+    "updateVersion": "npm version patch"
   },
   "repository": {
     "type": "git",
