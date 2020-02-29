@@ -14,7 +14,9 @@
     "lint": "tslint -p tsconfig.json",
     "check": "npm run lint && npm run format && npm test",
     "publish": "npm run build && npm publish",
-    "updateVersion": "npm version patch"
+    "updatePatch": "npm version patch",
+    "updateMinor": "npm version minor",
+    "updateMajor": "npm version major"
   },
   "repository": {
     "type": "git",
